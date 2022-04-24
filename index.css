@@ -1,0 +1,60 @@
+#winner{
+    text-align : center;
+    margin : 50px 0;
+    font-size : 30px;
+}
+
+
+#diceContainer{
+    width : 50%;
+    display : flex;
+    margin : auto;
+    justify-content : space-between;
+    align-items : center;
+    font-size : 30px;
+    text-align : center;
+
+}
+
+#diceContainer #member-1 , #diceContainer #member-2 , #diceContainer #member-3{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display : flex;
+    width : 80px;
+    height : 80px;
+    margin : auto;
+    align-items : center;
+    justify-content : center;
+    margin-top : 60px;
+    border-radius : 10px;
+}
+
+.shake{
+    animation: shake .5s infinite linear;
+}
+
+@keyframes shake {
+    0% {
+    transform: rotate(50deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+        }
+    100% {
+     transform: rotate(50deg);
+     }
+}
+
+#roll{
+    display : block;
+    margin : auto;
+    margin-top : 150px;
+    height : 40px;
+    width : 20%;
+    border-radius : 10px;
+    background: teal;
+    border : none;
+    font-size : 20px;
+    color : white;
+    cursor : pointer;
+
+}
